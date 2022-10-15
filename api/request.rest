@@ -1,0 +1,19 @@
+GET http://localhost:4000/todos
+
+###
+
+POST http://localhost:4000/todo/new
+Content-Type: application/json
+
+{
+    "text": "test."
+}
+
+###
+
+DELETE http://localhost:4000/todo/delete/630f2ee7d723b39c17bcf265
+
+
+###
+PUT  http://localhost:4000/todo/complete/630f4c2b57fccfd6568ea62a
+
